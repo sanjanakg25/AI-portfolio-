@@ -32,7 +32,8 @@ Updated September 30, 2026. Names and employment dates follow the supplied résu
 - [EnDevHer 8.0 organizer announcement](https://www.linkedin.com/feed/update/urn:li:activity:7443334778810142721/): `assets/endevher-2026.jpg`, original event poster confirming March 28, 2026 and the talk title.
 - [Atria webinar announcement](https://www.linkedin.com/feed/update/urn:li:activity:6673920281834323969/): `assets/atria-webinar.jpg`, original June 5, 2020 poster. [Post-session note](https://www.linkedin.com/feed/update/urn:li:activity:6676075306039812097/).
 - [World Machine Learning Summit 2023 agenda](https://www.1point21gws.com/machine-learning/bangalore-2023/): QLoRA talk. [LinkedIn speaker announcement](https://www.linkedin.com/feed/update/urn:li:activity:7070672821714108417/).
-- The DataHour entry and internal training figures remain résumé-sourced. The Analytics Vidhya link identifies the organizer; no recording or dedicated event page was found.
+- [Sanjana’s LinkedIn image posts](https://www.linkedin.com/in/sanjana-ganesh-38a47bb9/recent-activity/images/): `assets/qlora-talk-2023.jpg` is her original photograph presenting at the 7th World Machine Learning Summit. The accompanying post explicitly identifies the QLoRA talk and June 2023 event. `assets/datahour-genetic-algorithms-2023.jpg` is her original Analytics Vidhya speaker poster, confirming the topic and January 30, 2023 date. The poster names her Sanjana Kengatte and describes her as Data Science Manager; the main career title continues to follow her supplied résumé. Original images are preserved without cropping or generated edits.
+- Internal training figures remain résumé-sourced. No DataHour recording was found.
 
 Media remains credited to its original authors, publishers, and organizers. Previews link to their original sources. Downloaded portrait and posters are bundled locally so the page does not depend on expiring LinkedIn image URLs. No generated imagery is used.
 
