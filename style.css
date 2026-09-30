@@ -195,3 +195,13 @@ footer { border-top: 1px solid var(--line); margin-top: 40px; padding: 21px 0 32
   .event-image { width: 76px; margin-left: 13px; }
   .publication-links { font-size: 11px !important; }
 }
+
+/* Keep supporting detail available without interrupting the main biography. */
+.section-intro { margin-bottom: 23px; font-size: 14px; }
+.project-details { margin-top: 24px; }
+.career-detail .project-list, .project-details .project-list { margin-top: 15px; }
+.tools-detail .tools { margin-top: 13px; }
+@media (max-width: 650px) {
+  .section-intro { font-size: 13px; }
+  .position-content, .patent-record > div { min-width: 0; }
+}
