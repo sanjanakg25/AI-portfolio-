@@ -30,14 +30,15 @@ a:focus-visible { outline: 2px solid var(--link); outline-offset: 5px; }
 nav { display: flex; gap: 24px; }
 nav a { color: #555b63; text-decoration: none; }
 nav a:hover { text-decoration: underline; }
-.profile { display: grid; grid-template-columns: 1fr 148px; column-gap: 44px; padding-top: 47px; }
-.profile-heading { align-self: center; }
+.profile { display: grid; grid-template-columns: minmax(0, 1fr) 224px; column-gap: 38px; padding-top: 47px; }
+.portrait-link { grid-column: 2; grid-row: 1 / span 2; align-self: start; }
+.profile-heading { align-self: end; }
 h1 { margin: 0 0 7px; font-size: 32px; font-weight: 600; letter-spacing: -1.1px; line-height: 1.25; }
 .byline { color: var(--muted); font-size: 13px; margin: 0; }
 .profile-links { display: flex; gap: 13px; align-items: center; font-size: 13px; margin-top: 16px; }
 .profile-links span { color: #b8bec5; font-size: 11px; }
-.portrait { width: 148px; height: 148px; object-fit: cover; border-radius: 3px; }
-.bio { grid-column: 1 / -1; margin-top: 26px; }
+.portrait { display: block; width: 224px; height: 312px; object-fit: cover; object-position: center; border-radius: 3px; }
+.bio { grid-column: 1; margin-top: 24px; }
 p { margin: 0 0 15px; }
 .bio p:last-child { margin-bottom: 0; }
 .section { margin-top: 43px; }
@@ -89,12 +90,14 @@ footer { border-top: 1px solid var(--line); margin-top: 40px; padding: 21px 0 32
   .site-header { padding: 19px 0 15px; font-size: 11px; gap: 15px; }
   nav { gap: 16px; }
   .home-link { display: none; }
-  .profile { grid-template-columns: 1fr 92px; gap: 19px; padding-top: 32px; }
+  .profile { grid-template-columns: minmax(0, 1fr) 120px; gap: 19px; padding-top: 32px; }
+  .profile-heading { align-self: center; }
+  .portrait-link { grid-row: 1; }
   h1 { font-size: 26px; letter-spacing: -.75px; }
   .byline { font-size: 11px; line-height: 1.6; max-width: 210px; }
-  .portrait { width: 92px; height: 104px; }
+  .portrait { width: 120px; height: 168px; }
   .profile-links { font-size: 12px; gap: 10px; margin-top: 12px; }
-  .bio { margin-top: 5px; }
+  .bio { grid-column: 1 / -1; margin-top: 5px; }
   .section { margin-top: 34px; }
   h2 { font-size: 19px; margin-bottom: 17px; }
   .entry-type { display: block; margin: 2px 0 0; }

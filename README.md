@@ -2,7 +2,7 @@
 
 A static portfolio covering experience, publications, talks, and education. Built with HTML and CSS, with no build step or JavaScript dependency.
 
-The visual design matches [Venkat Reddy’s portfolio](https://venkat-rj.github.io/): the same typeface, page width, colors, headings, profile layout, and experience timeline.
+The visual design matches [Venkat Reddy’s portfolio](https://venkat-rj.github.io/): the same typeface, page width, colors, headings, and experience timeline. A larger portrait sits beside the opening biography; CSS framing excludes the original image’s white side margins without changing the image file.
 
 ## Preview locally
 
