@@ -18,7 +18,7 @@
 <div class="page">
 <header class="site-header">
 <a aria-label="Sanjana K G, home" class="home-link" href="#about">Sanjana K G</a>
-<nav aria-label="Main navigation"><a href="#experience">Experience</a><a href="#work">Projects</a><a href="#research">Publications</a><a href="#teaching">Talks</a></nav>
+<nav aria-label="Main navigation"><a href="#experience">Experience</a><a href="#research">Publications</a><a href="#teaching">Talks</a></nav>
 </header>
 <main id="main">
 <section aria-labelledby="name" class="profile" id="about">
@@ -35,8 +35,8 @@
 <div class="position-content"><h3><a href="https://www.continental.com/">Continental Automotive</a></h3><p class="role">Senior Data Scientist · Bengaluru</p>
 <p>At Continental, I develop machine-learning systems for engineering teams. My work has grown from modeling automotive components and optimizing supplier choices to building search and language-model systems.</p>
 <ul class="project-list">
-<li><strong>Information retrieval and evaluation.</strong> I built a semantic-search API that retrieves and reranks results from two document collections, along with an evaluation framework to measure retrieval quality and guide improvements. <a href="#retrieval">Search project</a>.</li>
-<li><strong>Document understanding.</strong> I’m building a system that brings together text, figures, and tables from complex engineering PDFs. It uses specialized agents to interpret document structure and check references across the content. <a href="#document-understanding">Ongoing work</a>.</li>
+<li><strong>Information retrieval and evaluation.</strong> I built a semantic-search API that retrieves and reranks results from two document collections, along with an evaluation framework to measure retrieval quality and guide improvements.</li>
+<li><strong>Document understanding.</strong> I’m building a system that brings together text, figures, and tables from complex engineering PDFs. It uses specialized agents to interpret document structure and check references across the content.</li>
 <li><strong>Optimization for engineering decisions.</strong> I adapted genetic algorithms for supplier selection and material usage under business and engineering constraints. I also co-authored <a href="#supplier-research">research on incorporating user priorities into supplier selection</a>.</li>
 </ul>
 <p>Alongside these projects, I’ve trained around <a href="#teaching">200 colleagues in data science and AI adoption</a> and conducted optimization workshops for engineering teams.</p>
@@ -56,32 +56,6 @@
 </div>
 </article>
 </section>
-<section aria-labelledby="work-title" class="section" id="work">
-<h2 id="work-title">Projects</h2>
-<article class="research-entry" id="document-understanding">
-<h3>Reading engineering documents <span class="entry-type">In progress</span></h3>
-<p>I’m building a system that reads text, tables, and images in engineering documents. It identifies headings, breaks the content into sections, and checks references between different parts of a document.</p>
-</article>
-<article class="research-entry" id="retrieval">
-<h3>Finding information in documents</h3>
-<p>I built a search API that finds relevant information across two document collections and ranks the results. I also built an evaluation framework to check how well the search works.</p>
-</article>
-<article class="research-entry">
-<h3>Asking questions about data <span class="entry-type">In progress</span></h3>
-<p>I’m building a chatbot that turns questions into SQL queries using the structure of a database. In a separate project, I built a question-answering interface that can fetch information from the web.</p>
-</article>
-<article class="research-entry">
-<h3>Comparing suppliers</h3>
-<p>I used genetic algorithms to compare supplier choices against several requirements at once. I also co-authored a paper on incorporating user priorities into that comparison.</p>
-<a class="text-link" href="https://www.dpublication.com/blog/2022/10/18/0130-438/">Paper and abstract</a>
-</article>
-<details class="evidence-detail project-details"><summary>Technical details</summary>
-<ul class="project-list">
-<li><strong>Document processing.</strong> I coordinate eight or more agents with <a href="https://docs.langchain.com/oss/python/langgraph/overview">LangGraph</a>, using <a href="https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview">Azure Document Intelligence</a> and <a href="https://pymupdf.readthedocs.io/en/latest/">PyMuPDF</a> for layout, image, table, and metadata extraction.</li>
-<li><strong>Search.</strong> My API uses query embeddings, retrieval across two corpora, and reranking, with an evaluation framework for retrieval quality.</li>
-<li><strong>SQL and web tools.</strong> My SQL chatbot uses Claude Sonnet with database schema information. The separate web question-answering project uses a web-fetching <a href="https://modelcontextprotocol.io/">MCP</a> server, LangChain MCP adapters, Azure OpenAI, and Gradio.</li>
-<li><strong>Optimization.</strong> I extended workflows in <a href="https://pymoo.org/">pymoo</a> for supplier selection and material utilization. Our supplier-selection research uses priority-mapped <a href="https://pymoo.org/algorithms/moo/nsga3.html">NSGA-III</a>.</li>
-</ul></details></section>
 <section aria-labelledby="research-title" class="section" id="research">
 <h2 id="research-title">Publications</h2>
 <article class="publication patent-record">
