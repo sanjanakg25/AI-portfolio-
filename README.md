@@ -2,6 +2,8 @@
 
 A static portfolio covering experience, selected projects, publications, talks, and education. Built with HTML and CSS, with no build step or JavaScript dependency.
 
+The visual design matches [Venkat Reddy’s portfolio](https://venkat-rj.github.io/): the same typeface, page width, colors, headings, profile layout, and experience timeline.
+
 ## Preview locally
 
 Run `python3 -m http.server 4174` in this directory and open http://localhost:4174.
